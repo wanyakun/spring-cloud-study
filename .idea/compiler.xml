@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-consumer-movie" />
+        <module name="microservice-discovery-eureka" />
         <module name="microservice-provider-user" />
         <module name="spring-cloud-study" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="spring-cloud-study" target="1.5" />
     </bytecodeTargetLevel>
