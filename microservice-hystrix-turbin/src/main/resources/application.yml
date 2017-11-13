@@ -1,0 +1,22 @@
+server:
+  port: 8031
+spring:
+  application:
+    name: microservice-hystrix-turbin
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://wanyakun:123.com@peer1:8761/eureka/, http://wanyakun:123.com@peer2:8762/eureka/
+  instance:
+    prefer-ip-address: true
+turbine:
+  app-config: microservice-consumer-movie-fallback, microservice-consumer-movie
+  cluster-name-expression: "'default'"

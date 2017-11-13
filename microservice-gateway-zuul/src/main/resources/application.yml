@@ -1,0 +1,9 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: microservice-gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://wanyakun:123.com@peer1:8761/eureka/, http://wanyakun:123.com@peer2:8762/eureka/

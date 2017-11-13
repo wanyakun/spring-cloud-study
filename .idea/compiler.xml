@@ -6,15 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice-config-client" />
+        <module name="microservice-config-server" />
+        <module name="microservice-consumer-mover-fallback" />
         <module name="microservice-consumer-movie" />
+        <module name="microservice-consumer-movie-fallback" />
         <module name="microservice-discovery-eureka" />
+        <module name="microservice-gateway-zuul" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbin" />
         <module name="microservice-provider-user" />
         <module name="spring-cloud-study" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="microservice-config-client" target="1.8" />
+      <module name="microservice-config-server" target="1.8" />
+      <module name="microservice-consumer-mover-fallback" target="1.8" />
       <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-consumer-movie-fallback" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-gateway-zuul" target="1.8" />
+      <module name="microservice-hystrix-dashboard" target="1.8" />
+      <module name="microservice-hystrix-turbin" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="spring-cloud-study" target="1.5" />
     </bytecodeTargetLevel>

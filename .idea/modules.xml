@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-fallback/microservice-consumer-mover-fallback.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-fallback/microservice-consumer-mover-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-fallback-stream/microservice-consumer-movie-fallback-stream.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-fallback-stream/microservice-consumer-movie-fallback-stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbin/microservice-hystrix-turbin.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbin/microservice-hystrix-turbin.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$//spring-cloud-study.iml" filepath="$PROJECT_DIR$//spring-cloud-study.iml" />
     </modules>

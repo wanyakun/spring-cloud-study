@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: microservice-foo
+  cloud:
+    config:
+      uri: http://localhost:8080
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        service-id: microservice-config-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://wanyakun:123.com@peer1:8761/eureka/, http://wanyakun:123.com@peer2:8762/eureka/

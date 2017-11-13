@@ -7,6 +7,13 @@
         <option value="$PROJECT_DIR$/microservice-provider-user/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-mover-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-turbin/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-client/pom.xml" />
       </list>
     </option>
   </component>

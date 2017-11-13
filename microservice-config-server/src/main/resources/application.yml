@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wanyakun/spring-cloud-study-config-repo
+          username: wanyakun
+          password: have7985506
+          clone-on-start: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://wanyakun:123.com@peer1:8761/eureka/, http://wanyakun:123.com@peer2:8762/eureka/

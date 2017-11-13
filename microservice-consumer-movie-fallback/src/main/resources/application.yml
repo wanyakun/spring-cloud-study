@@ -1,0 +1,15 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: microservice-consumer-movie-fallback
+eureka:
+  client:
+    service-url:
+      defaultZone: http://wanyakun:123.com@peer1:8761/eureka/, http://wanyakun:123.com@peer2:8762/eureka/
+  instance:
+    prefer-ip-address: true
+
+feign:
+  hystrix:
+    enabled: true
